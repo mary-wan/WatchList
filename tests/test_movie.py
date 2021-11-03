@@ -13,4 +13,7 @@ class MovieTest(unittest.TestCase):
         self.new_movie = Movie(1234,'Python Must Be Crazy','A thrilling new Python Series','/khsjha27hbs',8.5,129993)
 
     def test_instance(self):
+        '''
+        Test to check creation of new movie instance
+        '''
         self.assertTrue(isinstance(self.new_movie,Movie))
